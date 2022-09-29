@@ -1,0 +1,12 @@
+:root {
+  --main-backgrd-color: rgb(57, 53, 53);
+  --main-border-color:  rgb(58, 187, 78);
+}
+
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: var(--main-backgrd-color);
+}
+
