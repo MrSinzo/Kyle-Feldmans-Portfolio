@@ -1,61 +1,121 @@
-:root {
-  font-size: 16px;
-  color: azure;
-  --main-bg-color: rgb(57, 53, 53);
-  --main-border-color:  rgb(58, 187, 78);
-}
-/*how to color whole background?*/
-h1 {
-  padding-left: 50px;
+* {
+  line-height: 30px;
+  color: #00ff77;
+  background-color: rgb(44, 43, 43);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-h2,
-h3
-{background-color: var(--main-bg-color);}
-
+/*flexed the header seperately and worked great*/
 .header {
-  justify-content:flex-start;
   display: flex;
-  border: 8px solid var(--main-border-color);
-  font-weight: 400;
-  position: fixed;
-  background-color: rgb(57, 53, 53);
-  flex-direction: column;
-  width: 98%;
+  justify-content: center;
 }
 
-.nav {
-  font-size: 24px;
-  list-style-type: square;
-  flex-direction: row;
-  margin: 0 auto;
-  padding-left: 20px;
+#h1 {
+  padding: 15px;
+  color: yellow;
+  font-size: 225%;
+  text-align: center;
 }
 
-li {
-  list-style-type: square;
+#profileImg {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
 }
 
-body {
-  background-color: var(--main-bg-color);
+.navcard {
+  border: #00ff77 solid 5px;
+  font-size: 200%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
 
+.workImg {
+  max-width: 200px;
+
+}
+
+p {
+  float: right;
+  width: 100%;
+  text-align: center;
 }
 
 section {
-  font-size: 1.2rem;
+  margin: 50px;
 }
 
-a {
-  color: var(--main-border-color)
+
+/* having difficulties correcting size of containers */
+.card {
+  border: #00ff77 solid 5px;
+  display:flex;
+  justify-content: space-evenly;
+  /* background-color: #051e10; */
+  flex-direction: row;
+  padding: 20px;
 }
 
-@media screen and (max-width: 968px) {
-  ul.Navul { 
-    width: 50%;
+aside {
+  width: 500px;
+  height: 200px;
+  margin: 20px;
+}
+
+.fcp {
+  flex: 5;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.fc {
+  flex: 1;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.fc768 {
+  display: none;
+}
+
+
+
+footer {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 150%;
+  padding-bottom: 25px;
+}
+/* need the content below for grading */
+
+@media screen and (max-width: 992px) {
+  .navcard {
+    font-size: 125%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .fc768 {
+    text-align: center;
+    display:block
+  }
+  aside {
+    display: none;
+  }
+  .navcard {
+    flex-direction: column;
+  }
 }
+
+/* @media screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+} */
