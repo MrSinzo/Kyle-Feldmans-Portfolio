@@ -25,8 +25,8 @@ h3
   width: 98%;
 }
 
-ul.Navul {
-  font-size: 1.75rem;
+.nav {
+  font-size: 24px;
   list-style-type: square;
   flex-direction: row;
   margin: 0 auto;
@@ -43,10 +43,19 @@ body {
 }
 
 section {
-
   font-size: 1.2rem;
 }
+
 a {
   color: var(--main-border-color)
 }
-@media screen and (968px)
+
+@media screen and (max-width: 968px) {
+  ul.Navul { 
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
