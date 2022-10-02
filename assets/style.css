@@ -5,12 +5,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*flexed the header seperately and worked great*/
-.header {
-  display: flex;
-  justify-content: center;
-}
-
 #h1 {
   padding: 15px;
   color: yellow;
@@ -24,11 +18,23 @@
   margin: 50px;
 }
 
+/*flexed the header seperately and worked great*/
+
+.navcardhead {
+  border: #00ff77 solid 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
 .navcard {
   border: #00ff77 solid 5px;
   font-size: 32px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: 20px;
   padding: 10px;
@@ -44,6 +50,10 @@ figcaption {
   padding-bottom: 20px;
 }
 
+.fcHead {
+  padding: 10px;
+}
+
 .fc {
   text-align: center;
 }
@@ -54,8 +64,8 @@ figcaption {
 }
 
 .workImgp {
-  width: 150%;
-  height: 100%;
+  width: 500px;
+  height: 500px;
 }
 
 .workImg {
@@ -63,11 +73,12 @@ figcaption {
   height: 250px;
 }
 
-/* p {
+p, ul {
+  font-size: 20px;
   float: right;
   width: 100%;
   text-align: center;
-} */
+}
 
 section {
   margin: 50px;
