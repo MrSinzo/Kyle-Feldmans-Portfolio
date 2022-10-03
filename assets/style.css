@@ -1,5 +1,6 @@
 * {
-  line-height: 30px;
+  box-sizing: border-box;
+  width: auto;
   color: #00ff77;
   background-color: rgb(44, 43, 43);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,8 +9,9 @@
 #h1 {
   padding: 15px;
   color: yellow;
-  font-size: 225%;
+  font-size: 32px;
   text-align: center;
+  inline-size: min-content;
 }
 
 #profileImg {
@@ -20,8 +22,8 @@
 
 /*flexed the header seperately and worked great*/
 
+/* The navcardhead class is used to format the main header of the page*/
 .navcardhead {
-  border: #00ff77 solid 5px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,8 +32,8 @@
   flex-wrap: wrap;
 }
 
+/*the .navcard class is mainly used with the headers Navigation format*/
 .navcard {
-  border: #00ff77 solid 5px;
   font-size: 32px;
   display: flex;
   justify-content: space-around;
@@ -39,6 +41,10 @@
   margin: 20px;
   padding: 10px;
   flex-wrap: wrap;
+}
+
+.imgcard {
+
 }
 
 figure:hover {
@@ -54,19 +60,19 @@ figcaption {
   padding: 10px;
 }
 
-.fc {
-  text-align: center;
-}
-
 .fcp {
   text-align: center;
   padding-bottom: 10px;
 }
 
-.workImgp {
+.fc {
+  text-align: center;
+}
+
+/* .workImg1 {
   width: 500px;
   height: 500px;
-}
+} */
 
 .workImg {
   width: 250px;
@@ -76,7 +82,7 @@ figcaption {
 p, ul {
   font-size: 20px;
   float: right;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 
@@ -86,10 +92,11 @@ section {
 
 /* having difficulties correcting size of containers */
 .card {
-  border: #00ff77 solid 5px;
+  text-align: center;
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+  line-height: 22px;
 }
 
 aside {
@@ -122,8 +129,21 @@ footer {
   }
 }
 
-/* @media screen and (max-width: 576px) {
-  .card {
+@media screen and (max-width: 576px) {
+  .navcard {
     width: 100%;
   }
-} */
+  .navcardhead {
+    flex-direction: column;
+  }
+  .workImg1 {
+    margin-left: -90px ;
+  }
+  h2{
+    text-align: center;
+  }
+  aside {
+    text-align: center;
+    width: 100%;
+  }
+}
