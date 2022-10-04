@@ -82,7 +82,12 @@ footer {
   scale: 65%;
 }
 
+/*Force State codes below*/
 
+figure:hover {
+  cursor: grab;
+  filter: grayscale(1);
+}
 
 /*Screen Responsive Code below*/
 
