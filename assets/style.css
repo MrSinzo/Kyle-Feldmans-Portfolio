@@ -8,7 +8,7 @@
   margin: 5px;
 }
 
-/* Text and Flex box CSS below*/
+/* Text and Flex box CSS code below*/
 
 header {
   border: solid 8px;
@@ -78,7 +78,6 @@ footer {
 }
 
 #sideProjects{
-
   scale: 65%;
 }
 
@@ -95,15 +94,18 @@ figure:hover {
   .headercard {
     flex-direction: column;
   }
-  #sideProjects {
-    scale:
-  }
   
 }
 
-@media screen and (max-width: 459px;) {
-  /* .seccard {
+@media screen and (max-width: 460px) {
+
+  #sideProjects {
+    scale: 45%;
+  }
+  .seccard#small {
     flex-direction: column;
-  } */
+  }
 }
-  
+
+
+/* Thanks for checking it out! Hope you learned something!*/
