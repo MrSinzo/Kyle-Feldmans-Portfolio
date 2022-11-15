@@ -37,7 +37,6 @@ header {
 
 aside{
   padding-top: 15px;
-/*commented-out code in this block didnt work to align content as needed*/
   flex: .3;
   min-width: min-content;
   margin: 5px;
@@ -48,16 +47,27 @@ article {
   font-size: 20px;
   padding-left: 10px;
   padding-top: 20px;
-/*commented-out code in this block didnt work to align content as needed*/
   margin: 5px;
-  /* block-size: 70%; */
-  /* min-width: 78%; */
   flex: 2;
 }
 
 figcaption {
   text-align: center;
   font-size: 40px;
+}
+
+.capText {
+  text-indent: 30px;
+  font-size: 20px;
+}
+
+.mRight {
+
+  margin-right: 10px;
+}
+
+.centerText {
+  text-align: center;
 }
 
 footer {
@@ -68,8 +78,8 @@ footer {
 /*Images CSS code below*/
 
 .imgcard{
-  justify-content: center;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -82,22 +92,39 @@ footer {
 }
 
 .workImg1 {
-  max-width: 40%;
-  max-height: 25%;
+  max-width: 600px;
 }
+
+
 
 /*Force State codes below*/
 
 figure:hover {
-  cursor: grab;
+  cursor: pointer;
   filter: grayscale(1);
 }
+
+.workImg1:hover {
+  cursor: pointer;
+  filter: grayscale(1);
+}
+
 
 /*Screen Responsive Code below*/
 
 @media screen and (max-width: 999px) {
   .headercard {
     flex-direction: column;
+  }
+  .workImg1 {
+    max-width: 400px;
+  }
+  .seccard{
+    flex-direction: column;
+  }
+  article {
+    border-left: 0;
+    border-top: #0fe120 solid 5px;
   }
   
 }
@@ -110,7 +137,10 @@ figure:hover {
   .seccard#small {
     flex-direction: column;
   }
+
 }
 
 
 /* Thanks for checking it out! Hope you learned something!*/
+
+
