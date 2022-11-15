@@ -65,7 +65,7 @@ footer {
   margin: 50px;
 }
 
-/*Imamges CSS code below*/
+/*Images CSS code below*/
 
 .imgcard{
   justify-content: center;
@@ -79,6 +79,11 @@ footer {
 
 #sideProjects{
   scale: 65%;
+}
+
+.workImg1 {
+  max-width: 40%;
+  max-height: 25%;
 }
 
 /*Force State codes below*/
