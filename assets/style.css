@@ -1,6 +1,10 @@
 /* did not find a need for :root selector*/
 
 /* Universal Selector below*/
+:root{
+  --main-fc: #0fe120;
+  --main-bg: #012904;
+}
 
 *{
   color: #0fe120;
@@ -8,9 +12,44 @@
   margin: 5px;
 }
 
+/* a {
+  background-color: transparent;
+  color: var(--main-fc);
+  text-decoration: none;
+} */
+
+.navBtnBorder {
+  background-color: #0fe120;
+  border-radius: 25px;
+  padding: 10px;
+  height: auto;
+  font-size: 2rem;
+  color: black;
+}
+
+.navBtnBorder:hover{
+  color: var(--main-fc);
+  background-color: var(--main-bg);
+  border: var(--main-fc) 3px solid;
+}
+
+.ctxt {
+  text-align: center;
+}
+
+.picFix2 {
+  align-items: center;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.MainHeader{
+  border-radius: 25px;
+  border: 5px solid ;
+}
 /* Text and Flex box CSS code below*/
 
-header {
+/* header {
   border: solid 8px;
 }
 
@@ -73,10 +112,10 @@ figcaption {
 footer {
   text-align: center;
   margin: 50px;
-}
+} */
 
 /*Images CSS code below*/
-
+/* 
 .imgcard{
   display: flex;
   justify-content: center;
@@ -93,12 +132,12 @@ footer {
 
 .workImg1 {
   max-width: 600px;
-}
+} */
 
 
 
 /*Force State codes below*/
-
+/* 
 figure:hover {
   cursor: pointer;
   filter: grayscale(1);
@@ -107,11 +146,11 @@ figure:hover {
 .workImg1:hover {
   cursor: pointer;
   filter: grayscale(1);
-}
+} */
 
 
 /*Screen Responsive Code below*/
-
+/* 
 @media screen and (max-width: 999px) {
   .headercard {
     flex-direction: column;
@@ -138,7 +177,7 @@ figure:hover {
     flex-direction: column;
   }
 
-}
+} */
 
 
 /* Thanks for checking it out! Hope you learned something!*/
