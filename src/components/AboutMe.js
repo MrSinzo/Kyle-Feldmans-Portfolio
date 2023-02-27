@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function AboutMeStuff( ) {
+function AboutMe( ) {
  return  (<section class="">
 <aside><h2>Introduction</h2></aside>
 <article class="">
@@ -19,4 +19,4 @@ function AboutMeStuff( ) {
 </section>)
 };
 
-export default AboutMeStuff;
+export default AboutMe;

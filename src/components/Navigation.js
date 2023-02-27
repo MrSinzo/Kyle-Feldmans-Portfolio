@@ -24,14 +24,13 @@ import Project from "./Project"
 import AboutMe from "./AboutMe"
 import ContantMe from "./ContactMe"
 
-function Start() {
+function Navigation() {
   return (
     <div>
-      <h1>Welcome to Kyle Feldmans Portfolio</h1>
       <div><a class="navBtnBorder" href="%PUBLIC_URL%">About me</a></div>
       <div><a class="navBtnBorder" href="%PUBLIC_URL%/Project">My work</a></div>
       <div><a class="navBtnBorder"href="#nav3">Contact Me!</a></div>
-      <AboutMe />
+      <div><AboutMe /></div>
     </div>
   
     
@@ -39,4 +38,4 @@ function Start() {
 }
 
 
-export default Start;
+export default Navigation;

@@ -11,11 +11,8 @@ function Header() {
   return (
     <div>
       <h1>Welcome to Kyle Feldmans Portfolio</h1>
-      <div><a class="navBtnBorder" href="%PUBLIC_URL%">About me</a></div>
-      <div><a class="navBtnBorder" href="%PUBLIC_URL%/Project">My work</a></div>
-      <div><a class="navBtnBorder"href="#nav3">Contact Me!</a></div>
-    </div>
+</div>
   )
 }
 
-export default Header;
+export default Header; // our connection to the rest of the application 

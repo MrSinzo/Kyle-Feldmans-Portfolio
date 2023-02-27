@@ -1,9 +1,14 @@
-import './App.css';
-import React from 'react';
-import Header from './components/Header'
-
+import "./App.css";
+import React from "react";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 function App() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <Navigation />
+    </div>
+  );
 }
 
 export default App;
