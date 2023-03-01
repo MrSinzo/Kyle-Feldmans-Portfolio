@@ -4,15 +4,16 @@
 // THEN I am presented with a page containing a header, a section for content, and a footer
 // WHEN I view the header
 // THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-import React, { useState } from "react";
-
+import React from "react";
+import Me from '../images/ProfilepicSchool.png'
 // href="%PUBLIC_URL%" / console during development doesnt like publicpath thing
 function Header() {
   return (
     <div>
+      <img src={Me} alt='Profile Pic of Kyle'/>
       <h1>Welcome to Kyle Feldmans Portfolio</h1>
-</div>
-  )
+    </div>
+  );
 }
 
-export default Header; // our connection to the rest of the application 
+export default Header; // our connection to the rest of the application

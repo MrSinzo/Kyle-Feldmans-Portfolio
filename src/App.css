@@ -1,3 +1,48 @@
+/* General, Reuseable Css */
+
 html {
-  background: yellow
+  background: yellow;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.mainContainer {
+  display: flex;
+  border: 5px solid black;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none;
+}
+
+.subContainer {
+  border-bottom: 5px solid black;
+}
+/* Navigation specific CSS */
+
+.navContainer {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.navButton {
+  border: 4px solid black;
+  border-radius: 25%;
+  padding: 5px;
+  font-size: 160%;
+}
+
+.navButton:hover {
+  background-color: white;
+  padding: 2px
+}
+
+/* Portfolio specific CSS */
+.picFix2 {
+  align-items: center;
+  max-width: 400px;
+  max-height: 400px;
 }
