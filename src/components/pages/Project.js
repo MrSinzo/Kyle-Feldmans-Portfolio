@@ -1,6 +1,7 @@
 import React from "react";
+import ghIcon from "../../images/github-mark-white.png";
 
-// import styles from '../../App.css'; in App.js with 
+// import styles from '../../App.css'; in App.js with
 // className="picFix2" (or another classname css) in the html, you can call in the css from app.css,
 
 // instead of writing in the styles in the js file and calling them with styles={styles.picFix2}
@@ -13,14 +14,24 @@ import React from "react";
 // }
 // in html you would put styles={styles.picFix2}
 
-
 function Project(props) {
   return (
-    <div>
-      <h3>{props.name}</h3>
+    <div className="myCard">
+      <h1>
+        {props.name}{" "}
+        <a href={props.github} target="_blank" rel="noopener noreferrer">
+          <img className="projectIcons" src={ghIcon} />
+        </a>
+      </h1>
       <div>
-        <a href={props.href}><img className="picFix2" src={props.src} alt="Kyle Feldmans Projects"/></a>
-        <p className="">{props.description}</p>
+        <a href={props.href} target="_blank" rel="noopener noreferrer">
+          <img
+            className="picFix2"
+            src={props.src}
+            alt="Kyle Feldmans Projects"
+          />
+        </a>
+        <p className="">{props.description} </p>
       </div>
     </div>
   );

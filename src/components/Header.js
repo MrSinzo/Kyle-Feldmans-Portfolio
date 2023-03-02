@@ -5,13 +5,13 @@
 // WHEN I view the header
 // THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 import React from "react";
-import Me from '../images/ProfilepicSchool.png'
 // href="%PUBLIC_URL%" / console during development doesnt like publicpath thing
 function Header() {
   return (
     <div>
-      <img src={Me} alt='Profile Pic of Kyle'/>
-      <h1>Welcome to Kyle Feldmans Portfolio</h1>
+      <h1>Kyle Feldmans Portfolio</h1>
+      <h3>Full Stack Web Developer</h3>
+      <br />
     </div>
   );
 }
