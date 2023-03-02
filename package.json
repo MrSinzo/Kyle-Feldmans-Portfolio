@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/MrSinzo/Portfolio/issues"
   },
-  "homepage": "https://MrSinzo.github.io/Kyle-Feldmans-Portfolio",
+  "homepage": "https://mrsinzo.github.io/Kyle-Feldmans-Portfolio/",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
