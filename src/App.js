@@ -1,7 +1,7 @@
 import "./App.css";
 import "./index.css"
 import React from "react";
-import Container from "./components/Container";
+import Container from "./pages/Container";
 
 
 function App() {

@@ -1,5 +1,5 @@
 import React from "react";
-import ghIcon from "../../images/github-mark-white.png";
+import ghIcon from "../images/github-mark-white.png";
 
 // import styles from '../../App.css'; in App.js with
 // className="picFix2" (or another classname css) in the html, you can call in the css from app.css,

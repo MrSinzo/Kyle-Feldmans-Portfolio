@@ -30,7 +30,7 @@ This is a single page application built with React.
 
 ## Portfolio Link! <a name="example"></a>
 
-[Screenshot](/ScreenshotPortfolio.png)
+![Screenshot](/ScreenshotPortfolio.png)
 
 Deployed Website Link [Click Here!](https://mrsinzo.github.io/Kyle-Feldmans-Portfolio/)
 
