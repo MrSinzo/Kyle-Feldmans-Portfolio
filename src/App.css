@@ -35,7 +35,7 @@ label {
 .flexThis {
   display: flex;
   justify-content: center;
-  /* margin: auto; */
+  flex-wrap: wrap;
 }
 
 .subContainer {
@@ -59,9 +59,9 @@ label {
 .myCard {
   background-color: var(--main-bg);
   border: 3px dotted var(--main-fc);
-  padding: 8px;
-  max-width: 85%;
-  margin: auto;
+  /* padding: 8px; */
+  max-width: 40%;
+  /* margin: auto; */
   text-align: center;
   min-width: 375px;
   max-width: 600px;

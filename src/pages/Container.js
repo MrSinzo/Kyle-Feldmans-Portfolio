@@ -27,7 +27,7 @@ function Container() {
     }
     if (currentPage === "Project") {
       return (
-        <div>
+        <div className="flexThis">
           <Project
             name="Mail-Me-Seeds"
             src={MailSeeds}
