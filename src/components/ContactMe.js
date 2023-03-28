@@ -7,7 +7,7 @@ import React from "react";
 const ContactMe = () => {
   return (
     <div>
-      <form className="mainContainer">
+      {/* <form className="mainContainer">
         <h2 className=''>Contact me by email or other web platforms I have Links to!</h2>
         <div className="inputContainer">
           <div>
@@ -45,10 +45,15 @@ const ContactMe = () => {
         <div className="textLarge">
           <input type="submit" value="Send Email!" />
         </div>
-        <p>
-          <a href="mailto:Flip93wolf@gmail.com">Or click here to open up your Email App and Message Kyle!</a>
-        </p>
-      </form>
+
+      </form> */}
+      <h2>Flip93Wolf@gmail.com</h2>
+      <p>
+        
+        <a href="mailto:Flip93wolf@gmail.com">
+          Or click here to open up your Email App and Message Kyle!
+        </a>
+      </p>
     </div>
   );
 };

@@ -3,8 +3,8 @@ import ResumeDownload from "../assets/Resume03_1_23.pdf";
 
 function Resume() {
   return (
-    <div>
-      <div className="ctxt myCard">
+    <div className="flexThisToo">
+      <div className="resumeCard">
         <h2 ><a href={ResumeDownload} download="Kyle Feldman's Resume">
           My Full Resume Here!
         </a></h2>
@@ -18,8 +18,9 @@ function Resume() {
           </li>
         </ul>
       </div>
-      <div>
-        <ul  className="myCard">
+      {/* {end of first set } */}
+      <div className="resumeCard">
+        <ul>
           <h3>General Skills:</h3>
           <li>Project management</li>
           <li>Sales Techniques</li>
@@ -33,9 +34,10 @@ function Resume() {
           <li>Posesses Technology Learning speed and skills</li>
           <li>Business before Pleasure is my motto</li>
         </ul>
-        <div>
-          <br />
-          <ul className="myCard">
+        </div>
+        {/* {end of second set} */}
+        <div className="resumeCard">
+          <ul>
             {" "}
             <h3>Computer Skills:</h3>
             <li>Moderate Html and Css</li>
@@ -54,7 +56,7 @@ function Resume() {
           </ul>
         </div>
       </div>
-    </div>
+    
   );
 }
 

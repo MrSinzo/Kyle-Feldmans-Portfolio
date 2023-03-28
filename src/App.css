@@ -34,7 +34,7 @@ label {
 
 .flexThis {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -59,11 +59,10 @@ label {
 .myCard {
   background-color: var(--main-bg);
   border: 3px dotted var(--main-fc);
-  /* padding: 8px; */
+  padding: 8px;
   max-width: 40%;
-  /* margin: auto; */
   text-align: center;
-  min-width: 375px;
+  /* min-width: 400px; */
   max-width: 600px;
 }
 
@@ -73,9 +72,8 @@ label {
   margin-bottom: 20px;
 }
 .navContainer {
-  justify-content: space-evenly;
   list-style-type: none;
-  padding: 10px;
+
 }
 
 #navButton {
@@ -88,6 +86,11 @@ label {
 
 #navButton:hover {
   background-color: rgb(172, 15, 15);
+}
+
+.flexThisNav {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* About me CSS */
@@ -137,6 +140,29 @@ label {
   max-width: fit-content;
 }
 
+
+/* Resume CSS */
+
+.resumeCard {
+  background-color: var(--main-bg);
+  border: 3px dotted var(--main-fc);
+  padding: 8px;
+  /* max-width: 40%; */
+  margin: auto;
+  text-align: center;
+  min-width: 400px;
+  max-width: 600px;
+  min-height: 400px;
+  /* justify-content: space-between; */
+}
+
+
+.flexThisToo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 /* Footers Css */
 
 .footerFlex {
@@ -147,6 +173,22 @@ label {
 
 /*Screen Responsive Code below*/
 
+@media screen and (max-width: 1535px) {
+  .flexThisToo {
+  justify-content: center;
+  }
+
+
+}
+
+@media screen and (max-width: 1320px) {
+  .myCard {
+  margin: auto;
+  }
+
+
+}
+
 @media screen and (max-width: 999px) {
   .picFix2 {
     max-width: 250px;
@@ -154,12 +196,8 @@ label {
 }
 
 @media screen and (max-width: 800px) {
-  /* .navContainer {
-    flex: auto;
-  } */
+  .navContainer{
+    margin: 20px;
 
-  .flexThis {
-    flex-direction: column;
-    /* flex-wrap: wrap; */
   }
 }
