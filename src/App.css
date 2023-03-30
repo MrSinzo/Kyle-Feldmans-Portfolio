@@ -17,6 +17,10 @@ h1 {
   padding-bottom: 8px;
 }
 
+li {
+  list-style-type: none;
+}
+
 label {
   padding: 3px;
 }
@@ -47,13 +51,12 @@ label {
   max-width: 50%;
   margin: 0 auto;
   padding: 8px;
-  
 }
 
 .LinkIconFix {
   max-width: 50px;
   max-height: auto;
-  padding-right: 5px 
+  padding-right: 5px;
 }
 
 .ctxt {
@@ -76,9 +79,9 @@ label {
 .ele-bottom-push {
   margin-bottom: 20px;
 }
-.navContainer {
+/* .navContainer {
   list-style-type: none;
-}
+} */
 
 #navButton {
   border: 5px outset var(--main-fc);
@@ -141,7 +144,7 @@ label {
   text-shadow: #0fe120;
 }
 
-.deployButton:hover{
+.deployButton:hover {
   cursor: pointer;
   background-color: rgb(172, 15, 15);
   border: 5px inset;
@@ -194,18 +197,14 @@ label {
 
 @media screen and (max-width: 1535px) {
   .flexThisToo {
-  justify-content: center;
+    justify-content: center;
   }
-
-
 }
 
 @media screen and (max-width: 1320px) {
   .myCard {
-  margin: auto;
+    margin: auto;
   }
-
-
 }
 
 @media screen and (max-width: 999px) {
@@ -215,13 +214,22 @@ label {
 }
 
 @media screen and (max-width: 800px) {
-  .navContainer{
+  .navContainer {
     margin: 20px;
-    
   }
 
   .flexThis {
     justify-content: center;
   }
 
+  h1 {
+    font-size: 40px;
+  }
+  .profilePicFix {
+    max-width: 225px;
+  }
+
+  #navButton {
+    font-size: 90%;
+  }
 }

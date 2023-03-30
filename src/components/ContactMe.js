@@ -49,9 +49,8 @@ const ContactMe = () => {
       </form> */}
       <h2>Flip93Wolf@gmail.com</h2>
       <p>
-        
         <a href="mailto:Flip93wolf@gmail.com">
-          Or click here to open up your Email App and Message Kyle!
+          Please click here to open up your Email App and Message Kyle!
         </a>
       </p>
     </div>
