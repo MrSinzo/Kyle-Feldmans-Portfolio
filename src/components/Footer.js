@@ -1,6 +1,6 @@
 import React from "react";
 import ghIcon from "../images/github-mark-white.png";
-import LinkedIcon from "../images/icons8-linkedin-circled-90.png";
+import LinkedIcon from "../images/In-White-72.png";
 import StackOverFlowIcon from '../images/StackOverFlowIcon.png'
 const Footer = () => {
   return (

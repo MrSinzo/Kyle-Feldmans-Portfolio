@@ -11,13 +11,13 @@ function Project(props) {
         </a>
       </h1>
       <div>
-        <a href={props.href} target="_blank" rel="noopener noreferrer">
-          <img
-            className="picFix2"
-            src={props.src}
-            alt="Kyle Feldmans Projects"
-          />
-        </a>
+        <img className="picFix2" src={props.src} alt="Kyle Feldmans Projects" />
+
+        <div>
+          <a href={props.href} target="_blank" rel="noopener noreferrer">
+            <button className="deployButton">Deployed Site</button>
+          </a>
+        </div>
         <p className="">{props.description} </p>
       </div>
     </div>

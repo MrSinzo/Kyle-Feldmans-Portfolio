@@ -20,7 +20,7 @@ function Container() {
   const renderPage = () => {
     if (currentPage === "AboutMe") {
       return (
-        <div>
+        <div className="quickBorder">
           <AboutMe />
         </div>
       );
@@ -62,10 +62,10 @@ function Container() {
       );
     }
     if (currentPage === "ContactMe") {
-      return <ContactMe />;
+      return <div className="quickBorder"><ContactMe /></div>;
     }
     if (currentPage === "Resume") {
-      return <Resume />;
+      return <div className="quickBorder"><Resume /></div>;
     }
   };
 
