@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeDownload from "../assets/Resume03_1_23.pdf";
+import ResumeDownload from "../assets/K-Feldman-Resume.pdf";
 
 function Resume() {
   return (

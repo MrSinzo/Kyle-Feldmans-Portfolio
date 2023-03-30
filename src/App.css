@@ -48,7 +48,7 @@ label {
   display: flex;
   flex-direction: column;
   border-bottom: 5px double var(--main-fc);
-  max-width: 50%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 8px;
 }
