@@ -20,6 +20,8 @@ export default function AboutMe() {
         I am paid to work and produce great, quality content, 
         along with a being a plesant member of any team!
       </article>
+      <h2>Brand Statement</h2>
+      <article>As a curious and tech-savvy web developer, I have always had a desire to understand technology and its limits. I recently completed an intensive web development coding bootcamp offered by University of Washington. I gained a great deal of experience in the foundations of web development, and continue to hone my skills in HTML5, CSS, Bootstrap, JavaScript, React and a bit of Express.js and GraphQL. Having an appetite for continuous learning opportunities and challenges, collaboration, and problem-solving, I plan to create and maintain websites while also developing iOS and/or Android apps. Equally passionate about building applications that assist people to make their lives easier. Looking to bring my attention to detail and technical skills to a company to grow and become a valuable asset.</article>
     </section>
   );
 }
