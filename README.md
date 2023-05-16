@@ -16,7 +16,7 @@ SO THAT my potential employer wil see all  of the great skills I can provide.
 ### [Credits and Licenses](#creds)
 
 ## What is it? <a name="what"></a>
-This is a simple webpage that will contain future project along with some basic "employer desired" details about myself (Kyle F.)
+This is a simple webpage that will contain future projects along with some basic "employer desired" details about myself (Kyle Feldman)
 
 
 ## Why did I make this? <a name="why"></a> 
@@ -25,12 +25,12 @@ This solves the problem of needing to consistently email or fax my Resume to var
 
 
 ## How did I go about building this? <a name="how"></a>
-This is a single page application built with React.
+This is a single page application built with React, making use of the props to call in hard-coded data. It is mobile Responsive as well!
 
 
 ## Portfolio Link! <a name="example"></a>
 
-![Screenshot](/ScreenshotPortfolio.png)
+[Screenshot](/ScreenshotPortfolio.png)
 
 Deployed Website Link [Click Here!](https://mrsinzo.github.io/Kyle-Feldmans-Portfolio/)
 

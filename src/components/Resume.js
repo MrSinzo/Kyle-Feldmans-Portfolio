@@ -7,7 +7,7 @@ function Resume() {
       <div className="resumeCard">
         <h2>
           <a href={ResumeDownload} download="Kyle Feldman's Resume">
-            My Full Resume Here!
+            Click to Download My Full Resume Here! 
           </a>
         </h2>
         <h2>Kyles Certificates/Licenses</h2>
