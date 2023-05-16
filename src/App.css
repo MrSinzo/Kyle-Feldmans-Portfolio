@@ -3,7 +3,6 @@
 :root {
   --main-fc: #0fe120;
   --main-bg: #012904;
-  /* min-width: 470px; */
 }
 
 * {
@@ -70,7 +69,6 @@ label {
   padding: 8px;
   max-width: 40%;
   text-align: center;
-  /* min-width: 400px; */
   max-width: 600px;
 }
 
@@ -79,9 +77,10 @@ label {
 .ele-bottom-push {
   margin-bottom: 20px;
 }
-/* .navContainer {
-  list-style-type: none;
-} */
+.navContainer {
+  flex-basis: 24%;
+  /* flex-wrap: nowrap; */
+}
 
 #navButton {
   border: 5px outset var(--main-fc);
@@ -118,10 +117,6 @@ label {
   max-height: auto;
   border-radius: 40%;
 }
-
-/* .picFix2:hover {
-  filter: grayscale(1);
-} */
 
 .projectIcons {
   position: relative;
@@ -165,12 +160,23 @@ label {
 
 /* Resume CSS */
 
+.resumeDownload {
+  border: #0fe120 solid 4px;
+  border-radius: 25px;
+  background: #012904;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.resumeDownload:hover {
+  background: rgb(172, 15, 15);
+}
+
 .resumeCard {
   background-color: var(--main-bg);
   border: 3px dotted var(--main-fc);
   border-radius: 10px;
   padding: 8px;
-  /* max-width: 40%; */
   margin: auto;
   text-align: center;
   min-width: 300px;
@@ -205,6 +211,9 @@ label {
   .myCard {
     margin: auto;
   }
+  .navContainer {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 999px) {
@@ -231,5 +240,18 @@ label {
 
   #navButton {
     font-size: 90%;
+  }
+  .resumeDownload {
+    font-size: 70%;
+  }
+
+  .navContainer {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flexThis {
+    flex-direction: column;
   }
 }

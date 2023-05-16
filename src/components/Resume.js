@@ -6,7 +6,7 @@ function Resume() {
     <div className="flexThisToo">
       <div className="resumeCard">
         <h2>
-          <a href={ResumeDownload} download="Kyle Feldman's Resume">
+          <a className="resumeDownload" href={ResumeDownload} download="Kyle Feldman's Resume">
             Click to Download My Full Resume Here! 
           </a>
         </h2>
