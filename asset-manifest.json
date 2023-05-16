@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kyle-Feldmans-Portfolio/static/css/main.7470787b.css",
-    "main.js": "/Kyle-Feldmans-Portfolio/static/js/main.096c4ef1.js",
+    "main.js": "/Kyle-Feldmans-Portfolio/static/js/main.244ef50d.js",
     "static/media/Mail-Seeds.png": "/Kyle-Feldmans-Portfolio/static/media/Mail-Seeds.13f288dd4fb88663ae74.png",
     "static/media/HackerFit.png": "/Kyle-Feldmans-Portfolio/static/media/HackerFit.655767413c768d34c0d8.png",
     "static/media/ProfilepicSchool.png": "/Kyle-Feldmans-Portfolio/static/media/ProfilepicSchool.315899e19c010deaaf9c.png",
@@ -12,10 +12,10 @@
     "static/media/StackOverFlowIcon.png": "/Kyle-Feldmans-Portfolio/static/media/StackOverFlowIcon.646c17678134aff4fe20.png",
     "index.html": "/Kyle-Feldmans-Portfolio/index.html",
     "main.7470787b.css.map": "/Kyle-Feldmans-Portfolio/static/css/main.7470787b.css.map",
-    "main.096c4ef1.js.map": "/Kyle-Feldmans-Portfolio/static/js/main.096c4ef1.js.map"
+    "main.244ef50d.js.map": "/Kyle-Feldmans-Portfolio/static/js/main.244ef50d.js.map"
   },
   "entrypoints": [
     "static/css/main.7470787b.css",
-    "static/js/main.096c4ef1.js"
+    "static/js/main.244ef50d.js"
   ]
 }
