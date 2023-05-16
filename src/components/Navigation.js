@@ -34,6 +34,19 @@ function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li className="navContainer">
           <a
+            href="#Resume"
+            onClick={() => handlePageChange("Resume")}
+            //ternary operators checking for the truthiness of nav-link ( kinda like req.params)
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+            id="navButton"
+          >
+            Resume
+          </a>
+        </li>
+        <li className="navContainer">
+          <a
             href="#ContactMe"
             // when the client clicks on the event button to trigger this function, it will perform another functon to swap the page
             onClick={() => handlePageChange("ContactMe")}
@@ -44,19 +57,6 @@ function Navigation({ currentPage, handlePageChange }) {
             id="navButton"
           >
             Contact Info
-          </a>
-        </li>
-        <li className="navContainer">
-          <a
-            href="#Resume"
-            onClick={() => handlePageChange("Resume")}
-            //ternary operators checking for the truthiness of nav-link ( kinda like req.params)
-            className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
-            }
-            id="navButton"
-          >
-            Resume
           </a>
         </li>
       </div>
